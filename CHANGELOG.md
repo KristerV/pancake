@@ -1,5 +1,10 @@
 # @sveltejs/pancake changelog
 
+## 0.0.14
+
+* More examples
+* Enable SSR with type: module
+
 ## 0.0.13
 
 * Pass index to x/y accessors
