@@ -4,6 +4,8 @@
   import Chart3 from "./3/App.svelte";
   import Chart4 from "./4/App.svelte";
   import Chart5 from "./5/App.svelte";
+  import Chart6 from "./6/App.svelte";
+  import Chart7 from "./7/App.svelte";
 </script>
 
 <style>
@@ -39,6 +41,32 @@
     text-decoration: none;
   }
 </style>
+
+<div class="chart-preview">
+  <header>
+    <h3>Line Chart</h3>
+    <p>
+      <a
+        href="https://svelte.dev/repl/8cde242924fa4bc993dd7b3ec14640ab?version=3.20.1">
+        Edit
+      </a>
+    </p>
+  </header>
+  <Chart6 />
+</div>
+
+<div class="chart-preview">
+  <header>
+    <h3>Bar Chart</h3>
+    <p>
+      <a
+        href="https://svelte.dev/repl/cd2d467a3cfd405ca7cae22800d922e6?version=3.20.1">
+        Edit
+      </a>
+    </p>
+  </header>
+  <Chart7 />
+</div>
 
 <div class="chart-preview">
   <header>
